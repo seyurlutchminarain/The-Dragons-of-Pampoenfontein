@@ -7,7 +7,7 @@
 using namespace std;
 
 
-vector<int> tokenize(string s, string del = " ")
+vector<int> tokenize(string s, string del = " ") // split function using space as a delimiter
 {
     vector<int> coins;
     int num;
@@ -38,7 +38,7 @@ vector<int> tokenize(string s, string del = " ")
     return coins;
 }
 
-int findMin(vector<int> knights, int dragon)
+int findMin(vector<int> knights, int dragon) // finding the smallest knight thats big enough to kill a specific dragon
 {
     int smallest = knights.size() -1;
 
