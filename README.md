@@ -26,4 +26,4 @@ m  n. m integers follow, each separated by a space. These integers represent th
 each knight. Note that these heights are not necessarily in any order.
 
 OUTPUT:
-MInimum total heights of all knights used to kill all the dragins.
+MInimum total heights of all knights used to kill all the dragons.
